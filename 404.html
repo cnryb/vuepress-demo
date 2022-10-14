@@ -3,18 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Hello VuePress</title>
-    <meta name="generator" content="VuePress 1.8.2">
-    
-    <meta name="description" content="Just playing around">
-    
-    <link rel="preload" href="vuepress-demo/assets/css/0.styles.c5f23696.css" as="style"><link rel="preload" href="vuepress-demo/assets/js/app.d4918248.js" as="script"><link rel="preload" href="vuepress-demo/assets/js/6.40531264.js" as="script"><link rel="prefetch" href="vuepress-demo/assets/js/2.86515a50.js"><link rel="prefetch" href="vuepress-demo/assets/js/3.ad05f8c8.js"><link rel="prefetch" href="vuepress-demo/assets/js/4.13afe9ab.js"><link rel="prefetch" href="vuepress-demo/assets/js/5.baeb1707.js"><link rel="prefetch" href="vuepress-demo/assets/js/7.d903cc59.js">
-    <link rel="stylesheet" href="vuepress-demo/assets/css/0.styles.c5f23696.css">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Hello VuePress</title><meta name="description" content="Just playing around">
+    <link rel="modulepreload" href="/vuepress-demo/assets/app.7a14a5f1.js"><link rel="modulepreload" href="/vuepress-demo/assets/404.html.fe29f736.js"><link rel="modulepreload" href="/vuepress-demo/assets/404.html.d2dc3323.js"><link rel="prefetch" href="/vuepress-demo/assets/index.html.1972bdd4.js"><link rel="prefetch" href="/vuepress-demo/assets/index.html.f753244f.js">
+    <link rel="stylesheet" href="/vuepress-demo/assets/style.96532fcf.css">
   </head>
   <body>
-    <div id="app" data-server-rendered="true"><div class="theme-container"><div class="theme-default-content"><h1>404</h1> <blockquote>That's a Four-Oh-Four.</blockquote> <a href="/vuepress-demo/" class="router-link-active">
-      Take me home.
-    </a></div></div><div class="global-ui"></div></div>
-    <script src="vuepress-demo/assets/js/app.d4918248.js" defer></script><script src="vuepress-demo/assets/js/6.40531264.js" defer></script>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/vuepress-demo/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/vuepress-demo/assets/app.7a14a5f1.js" defer></script>
   </body>
 </html>
