@@ -1,5 +1,7 @@
 ---
-page: true
+home: true
+heroText: null
+tagline: null
 title: "Documentation"
 ---
 <!-- # Hello VuePress -->
